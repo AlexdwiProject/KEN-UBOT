@@ -3,7 +3,7 @@ FROM vckyouuu/geezprojects:buster
 # Halo kak yahaha
 # KEN-UBOT
 #
-RUN git clone -b KEN-UBOT https://github.com/KennedyProject/KEN-UBOT /root/userbot
+RUN git clone -b KEN-UBOT https://github.com/AlexdwiProject/MEONG-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
